@@ -5,103 +5,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <title>Professional Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <div>
+    <header class="links">
         <h1>Angela E. Adema</h1>
-        </div>
         <nav>
-            <a href="#">About Me</a>
+            <a href="#about">About Me</a>
             <a href="#">Work</a>
             <a href="#">Contact Me</a>
             <a href="#">Resume</a>
         </nav>
     </header>
 
-    <section>
+    <section class="hero">
+        <img src="./assets/images/angi-headshot.jpg" alt="angi headshot">
         <div>
-            <img src="./assets/images/Angi Headshot.JPG" alt="Angela Adema headshot">
-        <p>A goal properly set is halfway reached.</p>
-        <p>~ Zig Ziglar</p>
+            <h2>placeholder</h2>
         </div>
     </section>
 
-    <section>
-        <div>
+    <main>
+
+        <section id="about" class="group">
             <h2>About Me</h2>
-        </div>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo mollitia perspiciatis consectetur explicabo fuga quia eaque alias, 
-                architecto temporibus maiores corrupti vel magnam quos ipsa dolorem quam? Voluptatibus, doloribus molestiae!</p>
-        </div>
-    </section>
+            <div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam eligendi vero ipsum exercitationem
+                    quia beatae architecto a modi, harum recusandae velit soluta libero earum dolorum commodi nisi
+                    distinctio sit explicabo optio quos porro facere laudantium? Voluptatibus ipsam perferendis ex animi
+                    cupiditate deserunt odit odio, numquam molestiae doloremque ipsum necessitatibus veniam.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore ex explicabo odio laudantium
+                    sequi corrupti eos blanditiis dignissimos excepturi nam, dicta ducimus obcaecati autem vero esse cum
+                    quia rerum. Maiores provident sequi eveniet incidunt, corporis iste modi necessitatibus praesentium
+                    quas soluta dolor ea corrupti minima! Saepe nulla reiciendis modi harum!</p>
+            </div>
+        </section>
 
-    <section>
-        <div>
+        <section id="work" class="group">
             <h2>Work</h2>
-        </div>
-        <div>
-            <a href="https://angi-adema.github.io/Horiseon-Refactor/">
-                <div>
-                    <h3>Horiseon Refactor</h3>
-                    <p>HTML/CSS</p>
-                </div>
-            </a>
-            <a href="#">
-                <div>
-                    <h3>Coming Soon</h3>
-                    <p>HTML/CSS</p>
-                </div>
-            </a>
-            <a href="#">
-                <div>
-                    <h3>Coming Soon</h3>
-                    <p>JavaScript/CSS</p>
-                </div>
-            </a>
-            <a href="#">
-                <div>
-                    <h3>Coming Soon</h3>
-                    <p>React/JavaScript</p>
-                </div>
-            </a>
-            <a href="">
-                <div>
-                    <h3>Coming Soon</h3>
-                    <p>MERN Stack</p>
-                </div>
-            </a>
-        </div>
-    </section>
-</body>
+            <div class="projects">
 
-<footer>
-    <div>
-        <h2>Contact Me</h2>
-    </div>
-    <section>
-        <ul>
-            <li>
-                <p>123-456-7899</p>
-            </li>
-            <li>
-                <a href="#">angi.adema@yahoo.com</a>
-            </li>
-            <li>
-                <a href="#">GitHub</a>
-            </li>
-            <li>
-                <a href="#">Twitter</a>
-            </li>
-            <li>
-                <a href="#">Spotify</a>
-            </li>
-        </ul>
-    </section>
-</footer>
+                <a href="https://angi-adema.github.io/Horiseon-Refactor/" class="projectOne item">
+                    <div>
+                        <h3>Horiseon Refactor</h3>
+                        <p>HTML/CSS</p>
+                    </div>
+                </a>
+
+                <a href="#" class="projectTwo item">
+                    <div>
+                        <h3>Coming Soon</h3>
+                        <p>HTML/CSS</p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div>
+                        <h3>Coming Soon</h3>
+                        <p>JavaScript/CSS</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <h3>Coming Soon</h3>
+                        <p>React/JavaScript</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div>
+                        <h3>Coming Soon</h3>
+                        <p>MERN Stack</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+
+        <section id="contact" class="group">
+            <div>
+                <h2>Contact Me</h2>
+            </div>
+            <section>
+                <ul>
+                    <li>
+                        <p>123-456-7899</p>
+                    </li>
+                    <li>
+                        <a href="#">angi.adema@yahoo.com</a>
+                    </li>
+                    <li>
+                        <a href="#">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="#">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#">Spotify</a>
+                    </li>
+                </ul>
+            </section>
+        </section>
+
+    </main>
+    <footer></footer>
+</body>
 
 </html>
