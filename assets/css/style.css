@@ -64,36 +64,56 @@ padding: 20px 0;
 }
 
 .hero div h2 {
-    background-color: aliceblue;
+    background-color: rgb(225, 225, 238);
     color: black;
     margin: 0;
     padding: 2px 10px;
-    
+    width: 1000px;    
 }
 
 /* MAIN CONTENT */
 
-main{
+main {
     margin: 20px 0;
     max-width: 88%;
 }
 
-.body-titles{
+.about-me {
     margin: 20px 0;
     padding: 10px 0;
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
+    font-size: 20px;
 }
 
-.body-titles p {
+#about {
+    display: flex;
+    margin: 25px;
+}
+
+.about-me p {
     font-size: 20px;
     padding: 0 30px;
     line-height: 1.2;
 }
 
-.body-titles div {
-    
+.my-work {
+    font-size: 20px;
+    padding: 0 30px; 
+} 
+
+.projectOne-item {
     
 }
+
+.my-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    list-style: none;
+    font-size: 20px;
+}
+
