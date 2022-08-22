@@ -3,6 +3,10 @@
 ## Description
 Built the Professional-Portfolio using HTML and CSS in order to showcase projects to potential employers so they can sample the work posted and gain an understanding of my skill level. This website houses only one of five projects to be completed and will be updated once these are completed.
 
+![Portfolio Screen Shot](./assets/images/PortfolioSS1.png)
+
+[Deployed Site](https://angi-adema.github.io/Professional-Portfolio)
+
 ## Acceptance Criteria
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
@@ -18,8 +22,8 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
-![Portfolio Screen Shot](./assets/images/PortfolioSS1.png)
 
-[Deployed Site](https://angi-adema.github.io/Professional-Portfolio)
+
+
 
 
