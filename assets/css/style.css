@@ -99,14 +99,43 @@ main {
     line-height: 1.2;
 }
 
-.my-work {
+/* .my-work {
     font-size: 20px;
     padding: 0 30px; 
-} 
+}  */
 
-.projectOne-item {
-    
+/* .projects {
+    border: 2px 2px 2px;
+} */
+
+/* .work1 {
+    position: relative;
+    top: 500px;
+    left: 17px;
+    background-color: rgb(225, 225, 238);
+} */
+
+#deemphasized {
+    display: flex;
 }
+
+.project1-header {
+    position: relative;
+    top: 409px;
+    left: 17px;
+}
+
+.work-header {
+    position: relative;
+    top: 206px;
+    left: 17px;
+}
+
+#first {
+    width: 900px;
+}
+
+
 
 .my-contact {
     display: flex;
