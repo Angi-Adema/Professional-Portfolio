@@ -78,7 +78,7 @@ main {
     max-width: 88%;
 }
 
-.about-me {
+.content {
     margin: 20px 0;
     padding: 10px 0;
     display: flex;
@@ -88,61 +88,93 @@ main {
     font-size: 20px;
 }
 
-#about {
-    display: flex;
-    margin: 25px;
+.content > h2 {
+    text-align: right;
+    border-right: 5px solid black;
+    flex: 0 0 20%;
+    padding-right: 20px;
+
 }
 
-.about-me p {
+.content > div {
+    flex: 0 0 75%;
+}
+
+
+.content p {
     font-size: 20px;
     padding: 0 30px;
     line-height: 1.2;
+    margin-bottom: 20px;
+    color: black;
 }
 
-/* .my-work {
-    font-size: 20px;
-    padding: 0 30px; 
-}  */
+/* PROJECT CONTAINER */
 
-/* .projects {
-    border: 2px 2px 2px;
-} */
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-/* .work1 {
-    position: relative;
-    top: 500px;
-    left: 17px;
+.project {
+    border: 5px solid black;
+    min-height: 200px;
+    max-height: 200px;
+    display: flex;
+    justify-content: flex-end;/* this horizontally aligns when using display flex  */
+    align-items: flex-end; /* this vertically aligns when using display flex  */
+    padding-right: 20px ;   
+    margin: 3px;
+    flex-basis: calc(50% -1em);
+    background-size: 150%;
+    color: black;
+}
+
+.project-sample{
     background-color: rgb(225, 225, 238);
+    padding: 10px;
+}
+/* this one uses Psuedo classes to make the first project image larger */
+
+/* .project:first-child{
+    min-height: 500px;
+    flex-basis: 100%;
 } */
-
-#deemphasized {
-    display: flex;
+.project:hover{
+    opacity: .5;
 }
 
-.project1-header {
-    position: relative;
-    top: 409px;
-    left: 17px;
+/* CONTACT */
+.content div .links{
+
 }
 
-.work-header {
-    position: relative;
-    top: 206px;
-    left: 17px;
+.content div .links a {
+    padding: 100px;
+    color: black;
 }
 
-#first {
-    width: 900px;
+/* PROJECT IMAGES */
+
+.horiseon{
+    background-image: url('../images/bluebackground1.jpg');
+    min-height: 500px;
+    flex-basis: 100%;
 }
 
+.projectTwo{
+    background: url('../images/bluebackground2.jpg');
+}
 
+.placeholderThree{
+    background-image: url('../images/bluebackground3.jpg');
+}
 
-.my-contact {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 30px;
-    list-style: none;
-    font-size: 20px;
+.placeholderFour{
+    background-image: url('../images/bluebackground4.jpg');
+}
+.placeholderFive{
+    background-image: url('../images/bluebackground5.jpg');
 }
 
