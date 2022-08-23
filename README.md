@@ -3,7 +3,7 @@
 ## Description
 Built the Professional-Portfolio using HTML and CSS in order to showcase projects to potential employers so they can sample the work posted and gain an understanding of my skill level. This website houses only one of five projects to be completed and will be updated once these are completed.
 
-![Portfolio Screen Shot](./assets/images/Project1SS.png)
+![Portfolio Screen Shot](./assets/images/UpdatedpageSS.png)
 
 [Deployed Site](https://angi-adema.github.io/Professional-Portfolio)
 
