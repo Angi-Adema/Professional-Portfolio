@@ -152,7 +152,7 @@ main {
 } use if you want to update the contact container as a whole */
 
 .content div .links a {
-    padding: 100px;
+    padding: 50px;
     color: black;
 }
 
