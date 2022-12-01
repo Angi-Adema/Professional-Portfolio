@@ -164,8 +164,12 @@ main {
     flex-basis: 100%;
 }
 
-.projectTwo{
+
+.vehicle{
     background: url('../images/bluebackground2.jpg');
+    display: flex;
+    justify-content: flex-start;
+    width: 225px;
 }
 
 .placeholderThree{
@@ -178,4 +182,5 @@ main {
 .placeholderFive{
     background-image: url('../images/bluebackground5.jpg');
 }
+
 
